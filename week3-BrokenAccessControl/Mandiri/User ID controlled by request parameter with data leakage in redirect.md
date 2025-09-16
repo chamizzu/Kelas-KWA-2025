@@ -13,8 +13,8 @@ https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-re
 <img width="2200" height="1359" alt="image" src="https://github.com/user-attachments/assets/b61c8e0d-f5cf-48af-b585-73a3465677d9" />
 
 4. Meskipun kita dialihkan ke halaman utama, periksa isi respon yang diterima karena mengandung API key milik pengguna Carlos. Disini kita menemukan API Carlos yaitu:
-   <p>Your username is: carlos</p>
-                        <div>Your API Key is: yoSTGJhq3kTA8w8Flu9gRNpiew0lFbUL</div>
+   `<p>Your username is: carlos</p>
+                        <div>Your API Key is: yoSTGJhq3kTA8w8Flu9gRNpiew0lFbUL</div>`
 <img width="1094" height="1354" alt="image" src="https://github.com/user-attachments/assets/e9c42494-6372-4c4c-b39b-aa75f130ed5a" />
 
 5. Yeay kita sudah berhasil mengerjalan lab dan menemukan API Carlos!!
