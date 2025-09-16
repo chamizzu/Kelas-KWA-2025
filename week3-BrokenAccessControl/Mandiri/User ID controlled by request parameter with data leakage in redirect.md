@@ -22,7 +22,7 @@ https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-re
 
 ### Catatan (Notes)
 
-- Status: Berhasil / Gagal
+- Status: Berhasil 
 - Teknik: Manipulasi parameter ID dan analisis respon dengan Burp Suite
 - Payload: Mengubah parameter id untuk mengakses data milik pengguna Carlos
 - Alasan: Kerentanannya terletak pada pengalihan yang mengungkapkan informasi sensitif (API key) dalam tubuh respon yang tidak dilindungi.
