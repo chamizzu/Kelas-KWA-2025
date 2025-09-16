@@ -17,7 +17,7 @@ https://portswigger.net/web-security/access-control/lab-unprotected-admin-functi
 
 ### NOTES
 
-- Status: Berhasil / Gagal
+- Status: Berhasil
 - Teknik: Penggunaan Developer Tools untuk memeriksa sumber halaman
 - Payload: URL admin yang ditemukan dalam kode JavaScript
 - Alasan: Admin panel tidak dilindungi dengan autentikasi yang memadai dan URL-nya terdeteksi melalui analisis sumber halaman.
