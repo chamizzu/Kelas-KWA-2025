@@ -1,6 +1,9 @@
-# Unprotected admin functionality with unpredictable URL
-
+# Unprotected admin functionality with unpredictable URL - PortSwigger
 https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url
+
+## Langkah Eksploitasi
+
+1. 
 
 <img width="2879" height="1544" alt="image" src="https://github.com/user-attachments/assets/55ffabcc-66ff-4511-8411-15d819ad531c" />
 
