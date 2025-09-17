@@ -18,6 +18,7 @@
    - Untuk mengeksploitasi CSRF, buat sebuah file HTML dengan form yang secara otomatis mengirimkan request POST ke URL `http://localhost:3000/profile`.
    - Form tersebut menggunakan metode POST dan menyertakan parameter username yang diubah menjadi nilai baru, misalnya "HelloAkuAisyah".
    - Berikut adalah kode HTML punyaku untuk melakukan CSRF:
+     
      ```html
 <html>
 <body>
