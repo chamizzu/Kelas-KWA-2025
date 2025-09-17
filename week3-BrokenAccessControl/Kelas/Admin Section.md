@@ -17,7 +17,7 @@
 <img width="2062" height="1496" alt="image" src="https://github.com/user-attachments/assets/7a42d770-9d73-44e4-a904-1e9abd704b1f" />
 
 4. Akses Halaman Admin Tanpa Autentikasi
-Ternyata, halaman admin dapat diakses meskipun pengguna yang login bukan admin. Hal ini menunjukkan adanya broken access control, karena seharusnya akses ke halaman admin harusnya dibatasi untuk pengguna dengan hak akses tertentu.
+   - Ternyata, halaman admin dapat diakses meskipun pengguna yang login bukan admin. Hal ini menunjukkan adanya broken access control, karena seharusnya akses ke halaman admin harusnya dibatasi untuk pengguna dengan hak akses tertentu.
 <img width="2860" height="1641" alt="image" src="https://github.com/user-attachments/assets/a7b9b163-e66d-40c1-b9cc-5a7f4d188340" />
 
 ### CATATAN (NOTES) 
